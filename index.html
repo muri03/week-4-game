@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="page-header text-center">
+                    <h1>Crystal Game</h1>
+                </div>
+            </div>
+        </div>
+        <!-- Top row - instructions-->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="well well-lg">
+                    <h1>Win</h1>
+                    <span id="win"></span>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="well well-lg">
+                    <h1>How to Play</h1>
+                    <hr>
+                    <ol>
+                        <li>You will be given a random number at the start of the game : "Target Score".</li>
+                        <li>There are four crystals below : Red, Green, Blue and Yellow.</li>
+                        <li>By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+                        <li>You win the game by matching your total score to the random number.</li>
+                        <li>You lose the game if your total score goes above the random number.</li>
+                        <li>The value of each crystal is hidden from you until you click on it.</li>
+                        <li>Each time when the game starts, the game will change the values of each crystal.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="well well-lg">
+                    <h1>Lose</h1>
+                    <span id="lose"></span>
+
+                </div>
+            </div>
+        </div>
+      
+        <!-- Bottom row - images and scores-->
+        <div class="row">
+            <div class="col-md-2">
+                <div class="well well-lg">
+                    <h1>Target Score</h1>
+                    <span id="target-score"></span>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="well well-lg">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="assets/images/red.jpg" alt="red crystal" id="red">
+                        </div>
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="assets/images/green.jpg" alt="green crystal" id="green">
+                        </div>
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="assets/images/blue.jpg" alt="blue crystal" id="blue">
+                        </div>
+                        <div class="col-md-3">
+                            <img class="img-responsive" src="assets/images/yellow.jpg" alt="yellow crystal" id="yellow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="well well-lg">
+                    <h1>Your Score</h1>
+                    <span id="your-score"></span>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="assets/javascript/game.js"></script>
+        <!--  -->
+        <!-- ending container -->
+    </div>
+</body>
+
+</html>

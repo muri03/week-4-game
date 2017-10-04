@@ -1,0 +1,20 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    color:  #c88c1c;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+}
+
+.container {
+    background-image: url("/Users/blacksmith/NU/week-4-game/assets/images/cave3.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+li {
+	text-align: left;
+}
