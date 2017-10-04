@@ -9,7 +9,7 @@ body, html {
 }
 
 .container {
-    background-image: url("https://github.com/muri03/week-4-game/blob/master/assets/images/cave3.jpg");
+    background-image: url("file://../images/cave3.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
