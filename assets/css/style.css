@@ -9,7 +9,7 @@ body, html {
 }
 
 .container {
-    background-image: url("file://week-4-game/assets/images/cave3.jpg");
+    background-image: url("file://assets/images/cave3.jpg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
